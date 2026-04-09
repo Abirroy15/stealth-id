@@ -187,20 +187,7 @@ anchor deploy --provider.cluster devnet
 8. Wallet → SOL → Withdraw 0.05 SOL → server sends back from pool
 ```
 
----
 
-## Tech Stack
-
-| Layer | Technology |
-|-------|------------|
-| Frontend | Next.js 14 (App Router) + Tailwind CSS |
-| Wallet | Phantom via `@solana/wallet-adapter` |
-| Privacy API | MagicBlock Private Payments (`payments.magicblock.app`) |
-| Ephemeral RPC | `devnet.magicblock.app` |
-| Smart Contract | Solana Anchor |
-| Proof Engine | HMAC-SHA256 commitments |
-
----
 
 ## License
 
